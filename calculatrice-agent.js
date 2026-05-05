@@ -103,5 +103,5 @@ async function callWithTools(userMessage) {
   console.log('⚠️  Limite d\'itérations atteinte sans réponse finale.');
 }
 
-callWithTools('Quelle est la capitale du Japon ?')
+callWithTools('Combien fait 2 à la puissance 32 ? Et 15 fois 24 ?')
   .catch(e => console.error('❌ Erreur :', e.message));
