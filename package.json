@@ -1,11 +1,13 @@
 {
   "name": "calculatrice-agent",
   "version": "1.0.0",
+  "description": "Agents LLM avec function calling : calculatrice + meteo + web search (exo J3 IPSSI)",
   "type": "module",
   "scripts": {
     "calc": "node calculatrice-agent.js",
     "weather": "node weather-agent.js",
-    "start": "node weather-agent.js"
+    "search": "node search-agent.js",
+    "start": "node search-agent.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
