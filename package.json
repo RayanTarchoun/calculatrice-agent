@@ -1,11 +1,11 @@
 {
   "name": "calculatrice-agent",
   "version": "1.0.0",
-  "description": "Agent LLM avec function calling (tool use) - exo J3 IPSSI",
   "type": "module",
-  "main": "calculatrice-agent.js",
   "scripts": {
-    "start": "node calculatrice-agent.js"
+    "calc": "node calculatrice-agent.js",
+    "weather": "node weather-agent.js",
+    "start": "node weather-agent.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
